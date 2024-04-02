@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           className="uui-navbar01_component w-nav"
         >
           <div className="uui-navbar01_container">
-            <a href="#" className="uui-navbar01_logo-link w-nav-brand">
+            <a href="/" className="uui-navbar01_logo-link w-nav-brand">
               <div className="uui-logo_component">
                 <img
                   src="images/logo.png"
