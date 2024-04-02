@@ -73,7 +73,7 @@ const App = () => {
   const [top, setTop] = useState("topLeft");
   const [bottom, setBottom] = useState("bottomRight");
   return (
-    <div style={{ display: "flex", width: "100%", height: "auto",justifyContent:'center',alignItems:'center',padding:"10% 20% 10% 20%"}}>
+    <div className="tableContainer">
       <div style={{ width: "100%",margin:'auto'}}>
         <Table
           columns={columns}
