@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "@/public/css/ljj.css";
 import "@/public/css/normalize.css";
 import "@/public/css/webflow.css";
-
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -83,6 +83,8 @@ export default function RootLayout({ children }) {
         {children}
 
       </body>
+      <Script src="/js/webflow.js" strategy="lazyOnload"></Script>
+      <Script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=660bf73b26a4d504faaf0159"></Script>
     </html>
   );
 }

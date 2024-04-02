@@ -19,7 +19,7 @@ function page() {
             <label for="General-Contact-Form---Name">ID</label>
             <input
               className="spark-input-4 w-input"
-              maxlength="256"
+              maxLength="256"
               name="General-Contact-Form---Name"
               data-name="General Contact Form - Name"
               placeholder="Enter Your Name"
@@ -30,7 +30,7 @@ function page() {
             <label for="General-Contact-Form---Email">PW</label>
             <input
               className="spark-input-4 w-input"
-              maxlength="256"
+              maxLength="256"
               name="General-Contact-Form---Email"
               data-name="General Contact Form - Email"
               placeholder="Enter Your Email Address"
