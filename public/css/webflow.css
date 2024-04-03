@@ -87,13 +87,13 @@ html.w-mod-touch * {
 .w-button {
   display: inline-block;
   padding: 9px 15px;
-  background-color: #3898EC;
+  background-color: var(--untitled-ui--primary600);
   color: white;
   border: 0;
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 0;
+  border-radius: 12px;
 }
 input.w-button {
   -webkit-appearance: button;
@@ -309,7 +309,6 @@ button,
   -webkit-appearance: button;
 }
 .w-form {
-  margin: 0 0 15px;
 }
 .w-form-done {
   display: none;
@@ -513,12 +512,9 @@ textarea.w-select {
   height: 20px;
 }
 .w-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
+  max-width: 940px;
 }
 .w-container:before,
 .w-container:after {
@@ -1143,7 +1139,7 @@ textarea.w-select {
   color: #222222;
 }
 .w-dropdown-link.w--current {
-  color: var(--untitled-ui--primary600);
+  color: #0082f3;
 }
 .w-dropdown-link:focus {
   outline: 0;
@@ -1628,7 +1624,7 @@ textarea.w-select {
   margin-right: auto;
 }
 .w-nav-link.w--current {
-  color: var(--untitled-ui--primary600);
+  color: #0082f3;
 }
 .w-nav-menu {
   position: relative;
@@ -1640,7 +1636,7 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: 'white';
+  background: #C8C8C8;
   text-align: center;
   overflow: visible;
   min-width: 200px;
@@ -1697,7 +1693,7 @@ textarea.w-select {
   outline: 0;
 }
 .w-nav-button.w--open {
-  background-color: 'white';
+  background-color: #C8C8C8;
   color: white;
 }
 .w-nav[data-collapse="all"] .w-nav-menu {
@@ -1772,7 +1768,7 @@ textarea.w-select {
   background-color: #dddddd;
 }
 .w-tab-link.w--current {
-  background-color: 'white';
+  background-color: #C8C8C8;
 }
 .w-tab-link:focus {
   outline: 0;
@@ -1821,3 +1817,4 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
+

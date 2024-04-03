@@ -31,7 +31,7 @@ export default function Home() {
                     src="images/image-06.jpeg"
                     loading="lazy"
                     sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 94vw, (max-width: 1439px) 45vw, 608px"
-                    srcset="images/image-06-p-500.jpeg 500w, images/image-06-p-800.jpeg 800w, images/image-06-p-1080.jpeg 1080w, images/image-06.jpeg 1280w"
+                    srcSet="images/image-06-p-500.jpeg 500w, images/image-06-p-800.jpeg 800w, images/image-06-p-1080.jpeg 1080w, images/image-06.jpeg 1280w"
                     alt="Header image"
                     className="uui-heroheader01_image"
                   />

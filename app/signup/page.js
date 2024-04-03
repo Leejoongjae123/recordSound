@@ -8,7 +8,7 @@ function page() {
           <h2>Sign up</h2>
         </div>
         <div className="spark-regular-form w-form">
-          <form
+          <div
             id="General-Contact-Form"
             name="wf-form-General-Contact-Form"
             data-name="General Contact Form"
@@ -16,7 +16,7 @@ function page() {
             data-wf-page-id="660c1cf9287e34fe61aae404"
             data-wf-element-id="5b5d5fad-b84f-8b21-3244-9483c083ba2a"
           >
-            <label for="General-Contact-Form---Name">ID</label>
+            <label htmlFor="General-Contact-Form---Name">ID</label>
             <input
               className="spark-input-4 w-input"
               maxLength="256"
@@ -27,7 +27,7 @@ function page() {
               id="General-Contact-Form---Name"
               required=""
             />
-            <label for="General-Contact-Form---Email">PW</label>
+            <label htmlFor="General-Contact-Form---Email">PW</label>
             <input
               className="spark-input-4 w-input"
               maxLength="256"
@@ -44,7 +44,7 @@ function page() {
               className="spark-button-4 spark-full-width w-button"
               value="Sign up"
             />
-          </form>
+          </div>
           <div className="spark-form-success-3 w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
